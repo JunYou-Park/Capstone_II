@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:background="@color/background"
+        android:paddingStart="20dp"
+        android:paddingLeft="3dp"
+        android:paddingEnd="10dp"
+        android:text="식권 구매하기"
+        android:textSize="18sp"
+        android:textAlignment="textEnd"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnUserinfo"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:background="@color/background"
+        android:textSize="18sp"
+        android:paddingStart="20dp"
+        android:paddingLeft="3dp"
+        android:paddingEnd="10dp"
+        android:text="회원정보 수정"
+        android:textAlignment="textEnd"
+        app:layout_constraintEnd_toEndOf="@+id/btnBuy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBuy" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:background="@color/background"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:text="로그아웃"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnBuy"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnBuy"
+        app:layout_constraintTop_toBottomOf="@+id/btnUserinfo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

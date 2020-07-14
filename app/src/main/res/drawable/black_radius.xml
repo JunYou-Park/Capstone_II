@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    >
+    <!-- 인디케이터를 검은색 동그라미로 만들기 위해 생성-->
+    <solid
+        android:color="@color/white"/>
+</shape>

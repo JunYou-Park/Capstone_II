@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#ffff</color>
+    <color name="colorControlNormal">#AED5D2D2</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="gray_7">#495057</color>
+    <color name="gray_5">#adb5bd</color>
+    <color name="gray_3">#dee2e6</color>
+    <color name="kakao_color">#f7f717</color>
+    <color name="kakao_text_center_color">#3c1e1e</color>
+    <color name="kakao_text_side_color">#7e641b</color>
+    <color name="naver_logo_color">#36ab36</color>
+    <color name="background">#EDEDED</color>
+</resources>

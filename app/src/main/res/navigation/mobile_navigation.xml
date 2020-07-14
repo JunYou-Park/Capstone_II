@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="blog.practice.capstone_ii.Fragment.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_diet"
+            app:destination="@id/nav_diet" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_info"
+            app:destination="@id/nav_info" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_buy"
+            app:destination="@id/nav_buy" />
+        <action
+            android:id="@+id/action_nav_home_to_frag_qr"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_buy"
+        android:name="blog.practice.capstone_ii.Fragment.BuyFragment"
+        android:label="@string/menu_buy"
+        tools:layout="@layout/fragment_buy" >
+        <action
+            android:id="@+id/action_nav_buy_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_diet"
+        android:name="blog.practice.capstone_ii.Fragment.DietFragment"
+        android:label="@string/menu_diet"
+        tools:layout="@layout/fragment_diet" >
+        <action
+            android:id="@+id/action_nav_diet_to_nav_home"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_nav_diet_to_nav_info"
+            app:destination="@id/nav_info" />
+        <action
+            android:id="@+id/action_nav_diet_to_nav_buy"
+            app:destination="@id/nav_buy" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="blog.practice.capstone_ii.Fragment.InfoFragment"
+        android:label="@string/menu_info"
+        tools:layout="@layout/fragment_info" >
+
+        <action
+            android:id="@+id/action_nav_info_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_delete"
+        android:name="blog.practice.capstone_ii.Fragment.DeleteFragment"
+        android:label="@string/menu_delete"
+        tools:layout="@layout/fragment_delete" >
+
+        <action
+            android:id="@+id/action_nav_delete_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+</navigation>

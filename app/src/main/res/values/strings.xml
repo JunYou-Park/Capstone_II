@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Capstone_II</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_help">도움말</string>
+    <string name="action_logout">로그아웃</string>
+
+    <string name="menu_home">홈</string>
+    <string name="menu_buy">식권 구매</string>
+    <string name="menu_diet">식단</string>
+    <string name="menu_info">정보 변경</string>
+    <string name="menu_delete">회원 탈퇴</string>
+
+</resources>
