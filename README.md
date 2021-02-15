@@ -1,12 +1,16 @@
-# we-school-cafeteria
-This Service is made when i was a college student with a capstone class.
+# CapstoneII
+20학년도 1학기 캡스톤 디자인II 수업에서 기획하고 구현한 앱으로 한국교통대학교 본부식당을 중점으로 앱을 제작하였습니다.  
+코로나19로 인해 부득이하게 비대면 수업으로 진행되어 팀 단위가 아닌 개인으로 프로젝트를 진행하였으며 기획, 디자인, 개발을 모두 혼자 진행하게 되었습니다.  
 
-2020-07-14 finished <br>
-implement function
-----------------------------------------------------------------------------------------
-- register, login, finding email, reissuing pw, modifing email, deleting membership
-- buying ticket, using ticket(using QR)
+### 초기 기획
+앱 => 로그인 기능(일반 로그인, sns로그인), 식권구매(google in app 결제), 식단제공(주 단위), 식권사용(여러장 사용 가능)(QR 코드 이용), 개인정보 변경, 주문완료된 경우 fcm 받기  
+QR 스캔 센서(라즈베리파이) => QR코드 스캔, 주문 리스트 서버로 전송  
+웹 => 주문리스트 출력, 확인 클릭 시 주문 리스트 삭제 및 fcm 전송, 매출 및 판매량 리스트 출력(일, 월, 년)  
 
-complementary point
-----------------------------------------------------------------------------------------
-Because of My Programming skill is not good, so i couldn't build a demo payment service.
+### 구현 결과
+앱 => 로그인 기능(일반 로그인), 식권구매(서버 api만 연결), 식단제공(주 단위), 식권사용(여러장 사용 가능)(QR 코드 이용), 개인정보 변경
+앱 => QR코드 스캔, 주문 리스트 서버로 전송  
+웹 => 주문리스트 출력, 확인 클릭 시 주문 리스트 삭제
+
+### 결과 
+능력과 시간 부족으로 개발 초기에 기획하였던 기능을 전부 구현하진 못한점이 아쉬워 이후에 추가적으로 Kotlin과 MVVM 패턴을 적용시킨 리펙토링을 진행할 예정입니다.
