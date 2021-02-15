@@ -11,8 +11,8 @@ import javax.mail.SendFailedException;
 
 public class SendMail extends AppCompatActivity {
 
-    private final String user = "jypjun12@gmail.com"; // 보내는 계정의 id
-    private final String password = "96159sd!@#"; // 보내는 계정의 pw
+    private final String user = "junyeong@gmail.com"; // 보내는 계정의 id
+    private final String password = "!qkrwnsdud12"; // 보내는 계정의 pw
 
     private String subject = "";
     private String content = "";
